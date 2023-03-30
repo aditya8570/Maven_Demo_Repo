@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="FreeCRMtestcases">
+  <test name="SanityFreeCRMtestcases">
+    <classes>
+		
+      <class name="com.crm.qa.testcases.LoginPageTest"/>
+      <class name="com.crm.qa.testcases.HomePageTest"/>
+
+    <!-- If manager asked to perform the sanity Test 
+    As we don't have enough time to perform whole regretion test
+    So, We will run Test runner sanity instead of Regression Test Case. 
+     -->
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

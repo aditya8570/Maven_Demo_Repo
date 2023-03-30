@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="FreeCRMtestcases">
+  
+  <listeners>
+	   <listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  
+  <test name="FreeCRMtestcases">
+    <classes>
+      <class name="com.crm.qa.testcases.LoginPageTest"/>
+      <class name="com.crm.qa.testcases.HomePageTest"/>
+      <class name="com.crm.qa.testcases.ContactsPageTest"/>
+      <class name="com.crm.qa.testcases.DealsPageTest"/>
+      <class name="com.crm.qa.testcases.TaskPageTest"/>
+    
+    <!-- It is run like test runner Full regression Test Case -->
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
